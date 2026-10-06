@@ -10,7 +10,7 @@ type Question = {
   question: string;
   answer: string[];
   explanation?: string;
-  options?: string[];
+  options: string[];
 };
 
 export default function QuizClient({ question }: { question: Question }) {
