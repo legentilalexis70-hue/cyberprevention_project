@@ -8,7 +8,9 @@ import { questions_detection } from '@/app/lib/questions';
 type Question = {
   id: string;
   question: string;
-  options: string[];
+  answer?: string;
+  explanation?: string;
+  options?: string[];
 };
 
 export default function QuizClient({ question }: { question: Question }) {
