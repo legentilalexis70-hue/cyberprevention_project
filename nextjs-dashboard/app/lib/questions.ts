@@ -1,5 +1,5 @@
 // data/questions.ts
-import { Question } from "@/app/ui/quiz-client-detecter";
+import Question from "@/app/ui/quiz-client-detecter";
 export const questions_reflexes = [
   {
     id: "1",
