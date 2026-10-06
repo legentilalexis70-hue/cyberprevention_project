@@ -8,14 +8,14 @@ import { PowerIcon } from '@heroicons/react/24/outline';
 
 export default function Page() {
   const links = [
+    { name: 'Détecter les arnaques', href: '/dashboard/phishing/1', icon: EnvelopeOpenIcon },
     
+    { name: 'les réflexes en cas d\'attaque', href: '/dashboard/reflexes/1', icon: EyeIcon },
     {
       name: 'Détecter une attaque',
       href: '/dashboard',
       icon: MagnifyingGlassIcon,
     },
-    { name: 'les réflexes en cas d\'attaque', href: '/dashboard/reflexes/1', icon: EyeIcon },
-    { name: 'Détecter les arnaques', href: '/dashboard/phishing/1', icon: EnvelopeOpenIcon },
   ];
   
   return (
