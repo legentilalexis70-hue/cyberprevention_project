@@ -1,4 +1,5 @@
 // data/questions.ts
+import { Question } from "@/app/ui/quiz-client-detecter";
 export const questions_reflexes = [
   {
     id: "1",
@@ -24,7 +25,7 @@ export const questions_reflexes = [
   
 ];
 
-export const questions_detection: { id: string }[] = [];
+export const questions_detection: Question[] = [];
 
 export const questions_phishing = [
   {
