@@ -4,7 +4,7 @@ type Question = {
   question: string;
   answer: string[];
   explanation?: string;
-  options?: string[];
+  options: string[];
 };
 export const questions_reflexes = [
   {
