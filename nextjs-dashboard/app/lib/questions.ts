@@ -2,7 +2,9 @@
 type Question = {
   id: string;
   question: string;
-  options: string[];
+  answer?: string;
+  explanation?: string;
+  options?: string[];
 };
 export const questions_reflexes = [
   {
