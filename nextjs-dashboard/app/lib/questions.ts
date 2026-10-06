@@ -1,5 +1,9 @@
 // data/questions.ts
-import Question from "@/app/ui/quiz-client-detecter";
+type Question = {
+  id: string;
+  question: string;
+  options: string[];
+};
 export const questions_reflexes = [
   {
     id: "1",
