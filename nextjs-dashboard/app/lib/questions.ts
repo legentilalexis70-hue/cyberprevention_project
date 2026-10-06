@@ -24,9 +24,7 @@ export const questions_reflexes = [
   
 ];
 
-export const questions_detection = [
-  
-]
+export const questions_detection: { id: string }[] = [];
 
 export const questions_phishing = [
   {
