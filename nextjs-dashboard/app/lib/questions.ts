@@ -2,7 +2,7 @@
 type Question = {
   id: string;
   question: string;
-  answer?: string;
+  answer: string[];
   explanation?: string;
   options?: string[];
 };
