@@ -11,6 +11,8 @@ type Question = {
   image?: string;
   source?: string;
   options: string[];
+  answer: string[];
+  explanation: string;
 };
 
 export default function QuizClient({ question }: { question: Question }) {
